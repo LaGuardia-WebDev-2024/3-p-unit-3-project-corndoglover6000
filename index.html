@@ -6,11 +6,11 @@ Requirements
 [  ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include :hover Effect
-[ no ] Feature 2 - Change the Cursor
+[ yes ] Feature 1 - Include :hover Effect
+[ yes ] Feature 2 - Change the Cursor
 [ no ] Feature 3 - Make a Background Color Semi-Transparent
-[ no ] Feature 4 - Include at Flip Card
-[ no ] Feature 5 - Include at least two Internal links
+[ yes ] Feature 4 - Include at Flip Card
+[ yes ] Feature 5 - Include at least two Internal links
 -->
 
 <!DOCTYPE html>
@@ -20,20 +20,35 @@ Select ONE Additional Feature to Add
   <title>Project: Recipe book</title>
   <meta charset="utf-8">
   <style>
+
+    body {
+      cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🤠</text></svg>") 16 0,auto; /*!emojicursor.app*/
+      background-image: url(https://i.fbcd.co/products/original/49cf08552eea0150106e6d2e17216687d9d7bf51c287f060219b19edc0fee663.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      height: 100vh;
+      margin: 0;
+    }
+
   </style>
 </head>
 
 <body>
-
-  <h1>____'s Recipe Book</h1>
+<center>
+  
+  <h1>estlin's miscellanous website</h1>
 
   <h2>Contents:</h2>
 
   <ol>
-    <li><a href="?">Recipe #1</a></li>
+    <li><a href="?">My grandmother's kimchi recipe</a></li>
+    <li><a href="?">Horseshoe crabs</a></li>
+    <li><a href="?">Music</a></li>
   </ol>
 
-  <h2 id="?">Recipe #1</h2>
+  <h2 id="?">My grandmother's kimchi recipe</h2>
 
   <ul>
     <li>Time: _</li>
@@ -60,6 +75,7 @@ Select ONE Additional Feature to Add
 
   <p><em>Source: <a href="?">Some recipes websites</a></em></p>
 
+</center>
 </body>
 
 </html>
